@@ -22,14 +22,14 @@ class QueueSystem:
             yield self.env.timeout(1)
             self.x2 = max(0, self.x2 + dx2)
 
-# Define the parameters
+# parameters
 lambda1 = 2.0
 lambda2 = 1.0
 mu1 = 3.0
 mu2 = 2.0
 sim_duration = 1000
 
-# Create a simulation environment
+# simulation environment
 env = simpy.Environment()
 queue_system = QueueSystem(env, lambda1, lambda2, mu1, mu2)
 env.process(queue_system.update_queue1())
