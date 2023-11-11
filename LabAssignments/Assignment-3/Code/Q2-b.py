@@ -10,10 +10,9 @@ def main():
     A = np.array([[0.2, 0.3, 0.7],
                 [0.3, 0.1, 0.7],
                 [0.7, 0, 0]])
-    b = np.array([0, 20, 80])
+    b = np.array([0.2, 0.8, 0])
     steady_state_x = calculate_steady_state(A, b)
     print("Steady state x:", steady_state_x)
-    # print(steady_state_x)
 
 if __name__ == '__main__':
     main()
