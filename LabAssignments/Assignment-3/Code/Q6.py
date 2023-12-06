@@ -24,10 +24,10 @@ class QueueSystem:
 
 def main():
     # parameters
-    lambda1 = 2.0
+    lambda1 = 0.8
     lambda2 = 1.0
-    mu1 = 3.0
-    mu2 = 2.0
+    mu1 = 1.0
+    mu2 = 1.5
     sim_duration = 1000
 
     # simulation environment
