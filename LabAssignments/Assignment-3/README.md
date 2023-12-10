@@ -3,7 +3,7 @@
 ## Q1. Positive System
 Consider a positive system of the form x(k + 1) = Ax(k) + b, whose system matrix is given by the adjacency matrix of the below graph. Assume that b = [0.2 0.8 0]⊤
 
-![Alt text](image.png)
+![image](https://github.com/SandeepKundalwal/Network-System-Modelling-And-Analysis/assets/61798659/f6e624cb-454b-4d58-a2e2-795023c2190d)
 
 - Using theoretically established convergence properties, find the steadystate value of x.
 - Write a program to verify if the system indeed converges to the above value.
